@@ -4,9 +4,9 @@
 * ls
 * cd Helloworld/
 * ls
-* dotnet new mvc -n Vamshi.Web
+* *'dotnet new mvc -n Vamshi.Web'*
 * ls
-* dotnet sln add Vamshi.Web/Vamshi.Web.csproj
+* *'dotnet sln add Vamshi.Web/Vamshi.Web.csproj'*
 * dotnet build
 * dotnet build --configuration release
 * ls
