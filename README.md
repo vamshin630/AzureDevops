@@ -1,6 +1,6 @@
 ## dotnet core application creation steps
 * dotnet  (need to install dotnet sdk)
-* dotnet new sln -o Helloworld
+* *'dotnet new sln -o Helloworld'*
 * ls
 * cd Helloworld/
 * ls
