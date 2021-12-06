@@ -1,15 +1,11 @@
 ## dotnet core application creation steps
 * dotnet  (need to install dotnet sdk)
 * *'dotnet new sln -o Helloworld'*
-* ls
 * cd Helloworld/
-* ls
 * *'dotnet new mvc -n Vamshi.Web'*
-* ls
 * *'dotnet sln add Vamshi.Web/Vamshi.Web.csproj'*
-* dotnet build
-* dotnet build --configuration release
-* ls
+* *'dotnet build'* (by default it will come with debug mode, we can mention configuration as release like below)
+* *'dotnet build --configuration release'* (the output is .dll files)
 * cd Vamshi.Web/
-* ls
-* dotnet bin/Debug/net5.0/Vamshi.Web.dll
+* *'dotnet bin/Debug/net5.0/Vamshi.Web.dll'*
+* *'dotnet publish -o /out'*  (it will generate outfolder and publish the only artifacts at the same location)
