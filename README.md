@@ -9,3 +9,10 @@
 * cd Vamshi.Web/
 * *'dotnet bin/Debug/net5.0/Vamshi.Web.dll'*
 * *'dotnet publish -o /out'*  (it will generate outfolder and publish the only artifacts at the same location)
+
+## dotnet commands
+* 'dotnet restore'
+* 'dotnet build'
+* 'dotnet test'
+* 'dotnet publish'
+
