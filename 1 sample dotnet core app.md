@@ -7,7 +7,7 @@
 * *'dotnet build'* (by default it will come with debug mode, we can mention configuration as release like below)
 * *'dotnet build --configuration release'* (the output is .dll files)
 * cd Vamshi.Web/
-* *'dotnet bin/Debug/net5.0/Vamshi.Web.dll'*
+* *'dotnet bin/Release/net5.0/Vamshi.Web.dll'*
 * *'dotnet publish -o /out'*  (it will generate outfolder and publish the only artifacts at the same location)
 
 ## dotnet commands
