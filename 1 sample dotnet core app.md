@@ -8,7 +8,7 @@
 * *'dotnet build --configuration release'* (the output is .dll files)
 * cd Vamshi.Web/
 * *'dotnet bin/Release/net5.0/Vamshi.Web.dll'*
-* *'dotnet publish -o /out'*  (it will generate outfolder and publish the only artifacts at the same location)
+* *'dotnet publish -o C:\Vamshi-Drive\out'*  (it will generate outfolder and publish the only artifacts at the same location)
 
 ## dotnet commands
 * 'dotnet restore'
